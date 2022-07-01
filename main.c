@@ -213,12 +213,12 @@ void editStatus()
             }
             value = strtok(NULL, ", ");
             column++;
-        }
+        }}
     
     if (flag != 1)
     {
         printf("\tData not found!\n\n");
-    }}
+    }
     fclose(fp);
     fclose(fp1);
     remove("database.csv");
